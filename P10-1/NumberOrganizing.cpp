@@ -36,6 +36,6 @@ int main(void) {
 		cout << number[i] << " ";
 	}
 
-	//
-
+	//first and last
+	cout << endl << "First and last: " << number[0] << " " << number[9];
 }
