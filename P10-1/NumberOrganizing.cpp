@@ -16,11 +16,21 @@ int main(void) {
 		cout << number[i] << " ";
 	}
 
-	//find even numbers
+	//find even index numbers
 	cout << endl << "Even indices: ";
 	for (int i = 0; i < 10; i += 2) {
 		cout << number[i] << " ";
 	}
+
+	//find even numbers
+	cout << endl << "Even values: ";
+	for (int i = 0; i < 10; i++) {
+		if (((number[i] % 10) % 2) == 0) {
+			cout << number[i] << " ";
+		}
+	}
+
+
 
 
 }
