@@ -8,6 +8,7 @@ int main(void) {
 	int number[10];
 	srand(time(0));
 	// print the numbers (first bullet point)
+	cout << "The random integers: ";
 	for (int i = 0; i < 10; i++) {
 		do {
 			number[i] = (rand());
@@ -15,6 +16,11 @@ int main(void) {
 		cout << number[i] << " ";
 	}
 
+	//find even numbers
+	cout << endl << "Even indices: ";
+	for (int i = 0; i < 10; i += 2) {
+		cout << number[i] << " ";
+	}
 
 
 }
