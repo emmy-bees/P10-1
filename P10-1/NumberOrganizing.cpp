@@ -30,7 +30,12 @@ int main(void) {
 		}
 	}
 
+	//reverse number
+	cout << endl << "Reversed order: ";
+	for (int i = 9; i >= 0; i--) {
+		cout << number[i] << " ";
+	}
 
-
+	//
 
 }
